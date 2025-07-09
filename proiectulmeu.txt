@@ -1,0 +1,153 @@
+int a=6;
+float c=3.3f;
+double b=3.12;
+
+
+
+printf("a=%d\n c=%f\n b=%lf\n",a,c,b);
+
+
+
+a=(a+b)/2;
+b=b*c;
+a=a/2;
+
+int vara=1;
+int varb=3;
+
+if(vara>varb)
+{
+    printf("ramura1\n");
+} else {
+    printf("ramura2\n");
+    int testvariabila;
+    testvariabila=15;
+    printf("testvariabila=%d\n",testvariabila);
+
+    if(vara>varb)
+    {
+        printf("ramura1\n");
+    } else {
+        printf("ramura2\n");
+        int testvariabilaa;
+        testvariabilaa=15;
+        printf("testvariabilaa=%d\n",testvariabilaa);
+    }
+
+}
+
+
+if(4>3)
+{
+    printf("ramura3\n");
+} else {
+    printf("ramura4\n");
+}
+
+
+if(1>3)
+{
+    printf("ramura5\n");
+}
+
+if(5>3)
+{
+    printf("ramura6\n");
+}
+
+
+
+
+
+
+
+{
+    printf("Astazi voi face si scanf\n");
+    int h=3;
+    printf("Numarul din blocul 1 este: %d\n", h);
+    int dan=(int)b;
+}
+
+{
+    int ana=2;
+    printf("Numarul din blocul 2 este: %d\n", ana);
+}
+
+printf("\n\n\n");
+float suma(int l, float m)
+{
+    int dan=2;
+    printf("Dan: %d\n", dan);
+
+
+    printf("suma:\n l=%d\n m=%f\n",l,m);
+    
+    return dan;
+}
+
+printf("a=%d    c=%f    b=%lf\n",a,c,b);
+float testsuma=suma(a,c);
+
+
+printf("\n\n\n");
+
+
+int suma2(int a, double c)
+{
+    printf("suma2:\n a=%d \n c=%lf\n",a,c);
+    return a+c*2;
+}
+
+printf("a=%d    c=%f    b=%lf\n",a,c,b);
+int testsumaa=suma2(a,b);
+
+
+printf("\n\n\n");
+double suma3(double c, float b)
+{
+    printf("suma3:\n c=%lfd\n b=%ff\n",c,b);
+    return c+b;
+}
+printf("a=%d    c=%f    b=%lf\n",a,c,b);
+double testsumaaa=suma3(b,c);
+
+//a int
+//c float
+//b double
+
+
+printf("\n\n\n");
+
+//Acest if va executa ambele ramuri
+if(1>2)
+{
+    printf("Ana are mere!\n");
+} else {
+    printf("Dan are mere!\n");
+}
+
+a=8;/*acest while va fi executat o singura data
+pentru ca nu stiu cum sa fac sa reevaluez conditia */ 
+
+
+while(a>0)
+{
+    printf("Da\n");
+    a=a/2;
+}
+
+/*
+printf("Ai introdus numarul: %d %lf\n",a,b);
+printf("Ai introdus numarul: %d %f\n",a,c);
+printf("Ai introdus numarul: %d %lf %f\n",a,b,c);
+*/
+printf("Ai introdus numarul: %d %lf\n",a,b); /*
+printf("Ai introdus numarul: %d %f\n",a,c); */
+printf("Ai introdus numarul: %d %lf %f\n",a,b,c);
+
+int x;
+int y;
+printf("Introduceti primul numar:\n");
+scanf("%d", &x);
+printf("Introduceti al doilea numar:\n");
+scanf("%d", &y);
