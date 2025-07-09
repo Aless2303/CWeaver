@@ -52,17 +52,6 @@ gcc -o compiler proiectulmeu.tab.c lex.yy.c -lfl
 ./compiler < input_file.c
 ```
 
-### Example Input
-```c
-int main() {
-    int x = 10;
-    if (x > 5) {
-        printf("x is greater than 5");
-    }
-    return 0;
-}
-```
-
 ## Educational Purpose
 
 This compiler demonstrates fundamental concepts in compiler construction:
@@ -71,5 +60,3 @@ This compiler demonstrates fundamental concepts in compiler construction:
 - Symbol table implementation
 - Scope management
 - Basic semantic analysis
-
-**Note:** This is an educational project focused on frontend compiler techniques rather than a production compiler.
